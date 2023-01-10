@@ -1,4 +1,4 @@
-# RelativeCI agent setup example for vite
+# RelativeCI agent CLI setup example for Vite
 
 [![RelativeCI](https://badges.relative-ci.com/badges/aIIUqxw2fv4CbgI2an7u?branch=master)](https://app.relative-ci.com/projects/aIIUqxw2fv4CbgI2an7u)
 
