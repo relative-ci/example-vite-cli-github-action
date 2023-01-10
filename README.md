@@ -1,6 +1,6 @@
 # RelativeCI agent setup example for vite
 
-[![RelativeCI](https://badges.relative-ci.com/badges/1l4Xqi6L7hJIDV2cU2eP?branch=master)](https://app.relative-ci.com/projects/1l4Xqi6L7hJIDV2cU2eP)
+[![RelativeCI](https://badges.relative-ci.com/badges/aIIUqxw2fv4CbgI2an7u?branch=master)](https://app.relative-ci.com/projects/aIIUqxw2fv4CbgI2an7u)
 
 ## Install `@relative-ci/agent`
 
@@ -49,17 +49,14 @@ export default defineConfig((env) => ({
 ```js
 // relativeci.config.js
 module.exports = {
-  // Allow the agent to pick up the current commit message
-  includeCommitMessage: true,
-  // Save agent payload to disk for debugging
-  // @example './relative-ci-payload.json',
-  payloadFilepath: undefined,
   webpack: {
     // Path to Webpack stats JSON file
     stats: './dist/webpack-stats.json'
   }
 };
 ```
+
+[Read more](https://relative-ci.com/documentation/setup/agent/cli)
 
 ## Run @relative-ci/agent CLI on CI
 
