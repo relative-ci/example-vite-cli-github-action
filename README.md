@@ -2,7 +2,9 @@
 
 [![RelativeCI](https://badges.relative-ci.com/badges/aIIUqxw2fv4CbgI2an7u?branch=master)](https://app.relative-ci.com/projects/aIIUqxw2fv4CbgI2an7u)
 
-## Install `@relative-ci/agent`
+## Install
+
+### `@relative-ci/agent`
 
 ```shell
 npm install --dev @relative-ci/agent
@@ -14,7 +16,7 @@ or
 yarn add --dev @relative-ci/agent
 ```
 
-## Install `rollup-plugin-webpack-stats`
+### `rollup-plugin-webpack-stats`
 
 ```shell
 npm install --dev rollup-plugin-webpack-stats
@@ -26,12 +28,13 @@ or
 yarn add --dev rollup-plugin-webpack-stats
 ```
 
+## Configure
 
-## Configure `rollup-plugin-webpack-stats`
+### `rollup-plugin-webpack-stats`
 
 Output Vite stats JSON with a webpack stats structure supported by `@relative-ci/agent`
 
-```
+```js
 // vite.config.js
 import { defineConfig } from 'vite';
 import { webpackStats } from 'rollup-plugin-webpack-stats';
@@ -44,7 +47,7 @@ export default defineConfig((env) => ({
 }));
 ```
 
-## Configure `@relative-ci/agent`
+### `@relative-ci/agent`
 
 ```js
 // relativeci.config.js
