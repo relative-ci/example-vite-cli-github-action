@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { webpackStats } from 'rollup-plugin-webpack-stats';
+import webpackStatsPlugin from 'rollup-plugin-webpack-stats';
 import { bundleStats } from 'rollup-plugin-bundle-stats';
 
 export default defineConfig((env) => ({
@@ -8,6 +8,6 @@ export default defineConfig((env) => ({
     react(),
     bundleStats(),
     // Output webpack-stats.json file
-    webpackStats(),
+    webpackStatsPlugin(),
   ],
 }));
