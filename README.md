@@ -37,7 +37,7 @@ Output Vite stats JSON with a webpack stats structure supported by `@relative-ci
 ```js
 // vite.config.js
 import { defineConfig } from 'vite';
-import { webpackStats } from 'rollup-plugin-webpack-stats';
+import webpackStats from 'rollup-plugin-webpack-stats';
 
 export default defineConfig((env) => ({
   plugins: [
@@ -46,6 +46,8 @@ export default defineConfig((env) => ({
   ],
 }));
 ```
+
+[Read more](https://relative-ci.com/documentation/guides/bundle-stats/vite)
 
 ### `@relative-ci/agent`
 
