@@ -15,6 +15,9 @@ jobs:
       # Install dependencies
       - run: npm ci
 
+      # Lint check
+      - run: npm run lint
+
       # Build and output webpack stats to dist/webpack-stats.json
       - run: npm run build
 
