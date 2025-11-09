@@ -1,8 +1,14 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "timezone": "Europe/Madrid",
-  "schedule": ["before 10pm on Sunday"],
-  "baseBranches": ["master"],
+  "schedule": [
+    "before 10pm on Sunday"
+  ],
+  "baseBranchPatterns": [
+    "master"
+  ],
   "automerge": true,
   "branchPrefix": "renovate-"
 }
