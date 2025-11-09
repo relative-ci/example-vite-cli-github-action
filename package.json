@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "vite build",
+    "build-ts": "vite build",
     "lint": "eslint src",
     "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
