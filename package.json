@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@relative-ci/agent": "4.3.1",
-    "@vitejs/plugin-react": "5.1.1",
+    "@vitejs/plugin-react": "5.1.2",
     "eslint": "8.57.1",
     "eslint-config-airbnb": "19.0.4",
     "rollup-plugin-bundle-stats": "4.21.7",
