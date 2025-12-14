@@ -25,7 +25,7 @@ jobs:
           RELATIVE_CI_KEY: ${{ secrets.RELATIVE_CI_KEY }}
 
       - name: Archive build stats
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: test-artifacts
           path: |
