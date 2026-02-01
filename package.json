@@ -18,7 +18,7 @@
     "eslint": "8.57.1",
     "eslint-config-airbnb": "19.0.4",
     "rollup-plugin-bundle-stats": "4.21.9",
-    "rollup-plugin-webpack-stats": "2.1.9",
+    "rollup-plugin-webpack-stats": "2.1.10",
     "vite": "7.3.1"
   },
   "dependencies": {
